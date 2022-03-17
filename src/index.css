@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputsfield {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: nowrap;
+}
+body {
+  background-color: #262548;
+}
+.items {
+  justify-content: space-between;
+}
