@@ -14,7 +14,7 @@ function Output({ todos, setTodos }) {
         return (
           <div
             key={todo.id}
-            className="flex items shadow-lg mt-2 py-2 px-3 rounded-md text-lg border-2 border-white border-dotted ">
+            className="flex items shadow-lg mt-2 py-2 px-3 rounded-md text-lg md:border-2 md:border-white md:border-dotted ">
             <div className="write">
               <p>{todo.text.charAt(0).toUpperCase() + todo.text.slice(1)}</p>
             </div>
